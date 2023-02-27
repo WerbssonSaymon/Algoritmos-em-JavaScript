@@ -439,3 +439,109 @@
 //   	console.log("Resultado " + verificacao + " Acesso negado, tente novamente");
 //	}
 </script>
+
+<!- Estrutura para medir velocidade v2 ->
+<script>
+//	let velocidade = 80;
+//	const velocidadeMaxima = 70;
+//	const limitePorPontos = 5;
+//	const pontos = Math.floor((velocidade - velocidadeMaxima) / limitePorPontos); // Math.floor arredonda o resultado
+//
+//	function verificarVelocidade(){
+//  	if (velocidade <= velocidadeMaxima){
+//      	console.log("ok");
+//    	} else {
+//       if (pontos >= 12){
+//           console.log("Carteira suspensa");
+//       } 	else {
+//           	 console.log("Você recebeu " + pontos + " pontos na sua cateira");
+//       	}
+//  	}
+//	}
+//	console.log(verificarVelocidade());
+</script>
+
+<!- Estrutura que classifica uma lista de numeros em par ou impar ->
+<script>
+//  let numero = 2;
+//  function exibirTipo(){
+//    for (let i = 0; i <= numero; i++) {
+//        if (i % 2 === 0){ // ver se o modulo da divisao é 0
+//            console.log(i + " É PAR");
+//        } else {
+//            console.log(i + " É IMPAR");
+//        }
+//    }
+//}
+//console.log(exibirTipo());
+</script>
+
+<!- Estrutura que classifica um numero em par ou impar->
+<script>
+//  let numero = 1;
+//  function exibirTipo(){
+//    if (numero % 2 === 0){ // ver se o modulo da divisao é 0
+//       console.log(numero + " É PAR");
+//    } else {
+//        console.log(numero + " É IMPAR");
+//    }
+//  }
+//  console.log(exibirTipo());
+</script>	
+
+<!- Estrutura que mostra as propriedades especificas de um objeto ->
+<script>
+//	const filme = {
+//    titulo: "Vingança",
+//    ano: 2012,
+//    diretor: "Nicolas"
+//	}
+//	function propriedades(obj){
+//   	for (prop in obj){
+//      	if (typeof obj[prop] === "string"){ //obj[prop] significa a propriedade do objeto
+//      	    console.log(prop, obj[prop]); //mostra a propriedade e depois o valor dela (objeto ligado a propriedade)
+//      	}
+//   	}
+//	}
+//	console.log(propriedades(filme));
+</script>
+
+<!- Estrutura que soma os multiplos de 3 e 5 de um numero ->
+<script>
+//   let numero = 5;
+//    let multiploDe3 = 0;
+//    let multiploDe5 = 0;
+//	  function somar(){    
+//    for (let i = 0; i <= numero; i++){
+//        if (i % 3 === 0){
+//            multiploDe3 += i; // Guarda todos os multiplos nessa variavel
+//        }
+//        if (i % 5 === 0){
+//            multiploDe5 += i; // Guarda todos os multiplos nessa variavel
+//        }
+//    }
+//    console.log("A soma de todos os multiplos de 3 e 5 de " + numero + " é: " + (multiploDe3 + multiploDe5));
+//	  }
+//	  console.log(somar());
+</script>
+
+<!- Estrutura demedia de notas com array ->
+<script>
+//  const array = [10, 10, 10];
+//  function calcularMedia(array){
+//    let soma = 0;
+//    for (let valor of array){ // o valor de cada item de "notas" será passado para a "soma"
+//        soma += valor;
+//    }
+//    return soma / (array.length); // calculo da media atraves do .length (tamanho do array "notas")
+//  }
+//  function mediaDoAluno(notas){
+//    const media = calcularMedia(array); // recebendo "notas" da outra função
+//    if (media < 59) return "nota F";
+//    if (media < 69) return "nota D";
+//    if (media < 79) return "nota C";
+//    if (media < 89) return "nota B";
+//    return "nota A"
+//  }
+//  console.log(mediaDoAluno(array));
+</script>
